@@ -80,7 +80,10 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
 
 - Data: 26/02/2026 (4h)
 - Conteúdo: If/Else, Switch, For, While. Lógica booleana aplicada.
-- Pasta: aula-03/ (ainda não criada neste repositório)
+- Pasta: [aula-03/](./aula-03/)
+- Materiais:
+  - [aula-03-estruturas-de-controle.pdf](./aula-03/aula-03-estruturas-de-controle.pdf)
+  - [README (anotações e atividades)](./aula-03/README.md)
 
 <a id="aula-04"></a>
 ### Aula 04 — Funções em JavaScript
