@@ -15,10 +15,23 @@ Nesta aula o foco foi praticar **tomada de decisão** e **fluxo de execução** 
 Os exercícios desta aula usam `prompt()` e `alert()`, então devem ser executados **no navegador**.
 
 - Abra o arquivo [index.html](./index.html) no navegador (Chrome/Edge)
-- O navegador vai carregar o [script.js](./script.js) e mostrar os prompts/alerts
+- O navegador vai carregar o [script.js](./script.js) e abrir um menu para escolher o exercício
 - Para ver logs, abra o DevTools:
   - Windows/Linux: `F12` ou `Ctrl + Shift + I`
   - Aba: Console
+
+## Exercícios no código
+
+O arquivo [script.js](./script.js) reúne os exercícios e permite escolher pelo menu:
+
+- 1) Condições (OR/AND) + if aninhado
+- 2) Par ou ímpar
+- 3) Login simples
+- 4) Desconto em compras (faixas)
+- 5) Calculadora (+, -, *, /)
+- 6) Ano bissexto
+- 7) IMC
+- 8) Soma dos pares (loop)
 
 ## Conteúdo visto
 
@@ -133,7 +146,7 @@ alert(`Total final: R$ ${final.toFixed(2)}`);
 
 ## Atividade (trabalho remoto)
 
-Enunciado: calculadora de dois dígitos (baseado no [index.js](./index.js))
+Enunciado: calculadora de dois dígitos (presente no [script.js](./script.js))
 
 - Receba 2 números via `prompt()`
 - Converta com `Number()`
