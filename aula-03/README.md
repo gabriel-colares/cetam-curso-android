@@ -8,14 +8,13 @@ Nesta aula o foco foi praticar **tomada de decisão** e **fluxo de execução** 
 - Arquivos da aula:
   - [index.html](./index.html)
   - [script.js](./script.js)
-  - [index.js](./index.js)
 
 ## Como executar os exemplos
 
 Os exercícios desta aula usam `prompt()` e `alert()`, então devem ser executados **no navegador**.
 
 - Abra o arquivo [index.html](./index.html) no navegador (Chrome/Edge)
-- O navegador vai carregar o [script.js](./script.js) e abrir um menu para escolher o exercício
+- O navegador vai carregar o [script.js](./script.js) e mostrar um “menu” (vários `alert()`), depois um `prompt()` para escolher o exercício
 - Para ver logs, abra o DevTools:
   - Windows/Linux: `F12` ou `Ctrl + Shift + I`
   - Aba: Console
@@ -46,6 +45,7 @@ O arquivo [script.js](./script.js) reúne os exercícios e permite escolher pelo
   - `alert()` e `console.log()` para saída
 - Conversão de tipos
   - `Number()` para transformar texto em número antes de calcular
+  - `typeof` para confirmar se o usuário não clicou em “Cancelar”
 
 ## Exemplos (modelo)
 
@@ -60,13 +60,18 @@ Enunciado:
 Exemplo:
 
 ```js
-const numero = Number(prompt("Digite um número:"));
-const ehPar = numero % 2 === 0;
+const numeroTexto = prompt("Digite um número:");
 
-if (ehPar) {
-  alert(`O número ${numero} é par.`);
-} else {
-  alert(`O número ${numero} é ímpar.`);
+if (typeof numeroTexto === "string") {
+  const numero = Number(numeroTexto);
+
+  if (numero !== numero) {
+    alert("Valor inválido. Digite um número.");
+  } else if (numero % 2 === 0) {
+    alert("O número " + numero + " é par.");
+  } else {
+    alert("O número " + numero + " é ímpar.");
+  }
 }
 ```
 
@@ -87,10 +92,12 @@ const senhaCorreta = "1234";
 const usuario = prompt("Usuário:");
 const senha = prompt("Senha:");
 
-if (usuario === usuarioCorreto && senha === senhaCorreta) {
-  alert("Acesso liberado");
-} else {
-  alert("Acesso negado");
+if (typeof usuario === "string" && typeof senha === "string") {
+  if (usuario === usuarioCorreto && senha === senhaCorreta) {
+    alert("Acesso liberado");
+  } else {
+    alert("Acesso negado");
+  }
 }
 ```
 
@@ -139,9 +146,9 @@ if (total < 50) {
 const desconto = total * taxa;
 const final = total - desconto;
 
-alert(`Total: R$ ${total.toFixed(2)}`);
-alert(`Desconto: ${(taxa * 100).toFixed(0)}% (R$ ${desconto.toFixed(2)})`);
-alert(`Total final: R$ ${final.toFixed(2)}`);
+alert("Total: R$ " + total);
+alert("Desconto: " + taxa * 100 + "% (R$ " + desconto + ")");
+alert("Total final: R$ " + final);
 ```
 
 ## Atividade (trabalho remoto)
@@ -176,7 +183,7 @@ if (op === "+") {
 }
 
 if (resultado !== undefined) {
-  alert(`O resultado é: ${n1} ${op} ${n2} = ${resultado}`);
+  alert("O resultado é: " + n1 + " " + op + " " + n2 + " = " + resultado);
 }
 ```
 
