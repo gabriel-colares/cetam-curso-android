@@ -10,7 +10,7 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [Aula 02 — JavaScript Moderno (ES6+)](#aula-02)
   - [Aula 03 — Estruturas de Controle](#aula-03)
   - [Aula 04 — Exercícios (condicionais e laços)](#aula-04)
-  - [Aula 05 — Estruturas de Dados](#aula-05)
+  - [Aula 05 — Revisão de repetição e Funções](#aula-05)
   - [Aula 06 — POO em JavaScript](#aula-06)
   - [Aula 07 — Pilares da POO](#aula-07)
   - [Aula 08 — JavaScript Avançado](#aula-08)
@@ -96,11 +96,14 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [script.js](./aula-04/script.js)
 
 <a id="aula-05"></a>
-### Aula 05 — Estruturas de Dados
+### Aula 05 — Revisão de repetição e Funções
 
 - Data: 02/03/2026 (4h)
-- Conteúdo: arrays e métodos (map, filter, find); objetos literais; noções de JSON.
-- Pasta: aula-05/ (ainda não criada neste repositório)
+- Conteúdo: revisão de estruturas de repetição (for/while/do...while) e introdução a funções.
+- Pasta: [aula-05/](./aula-05/)
+- Materiais:
+  - [README (anotações e atividades)](./aula-05/README.md)
+  - [script.js](./aula-05/script.js)
 
 <a id="aula-06"></a>
 ### Aula 06 — POO em JavaScript
