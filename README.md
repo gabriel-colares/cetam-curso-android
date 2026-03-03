@@ -9,7 +9,7 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [Aula 01 — Introdução e Ambiente](#aula-01)
   - [Aula 02 — JavaScript Moderno (ES6+)](#aula-02)
   - [Aula 03 — Estruturas de Controle](#aula-03)
-  - [Aula 04 — Funções em JavaScript](#aula-04)
+  - [Aula 04 — Exercícios (condicionais e laços)](#aula-04)
   - [Aula 05 — Estruturas de Dados](#aula-05)
   - [Aula 06 — POO em JavaScript](#aula-06)
   - [Aula 07 — Pilares da POO](#aula-07)
@@ -86,11 +86,14 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [README (anotações e atividades)](./aula-03/README.md)
 
 <a id="aula-04"></a>
-### Aula 04 — Funções em JavaScript
+### Aula 04 — Exercícios (condicionais e laços)
 
 - Data: 27/02/2026 (4h)
-- Conteúdo: declaração clássica e arrow functions; parâmetros e retorno; escopo de variáveis.
-- Pasta: aula-04/ (ainda não criada neste repositório)
+- Conteúdo: reforço de condicionais e laços com exercícios (ano bissexto, IMC e soma de pares).
+- Pasta: [aula-04/](./aula-04/)
+- Materiais:
+  - [README (anotações e atividades)](./aula-04/README.md)
+  - [script.js](./aula-04/script.js)
 
 <a id="aula-05"></a>
 ### Aula 05 — Estruturas de Dados
