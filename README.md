@@ -11,8 +11,8 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [Aula 03 — Estruturas de Controle](#aula-03)
   - [Aula 04 — Exercícios (condicionais e laços)](#aula-04)
   - [Aula 05 — Revisão de repetição e Funções](#aula-05)
-  - [Aula 06 — POO em JavaScript](#aula-06)
-  - [Aula 07 — Pilares da POO](#aula-07)
+  - [Aula 06 — Arrays, laços e revisão de funções](#aula-06)
+  - [Aula 07 — Arrays (forEach / find) e revisão](#aula-07)
   - [Aula 08 — JavaScript Avançado](#aula-08)
   - [Aula 09 — Git e GitHub](#aula-09)
   - [Aula 10 — AV1](#aula-10)
@@ -106,18 +106,24 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [script.js](./aula-05/script.js)
 
 <a id="aula-06"></a>
-### Aula 06 — POO em JavaScript
+### Aula 06 — Arrays, laços e revisão de funções
 
 - Data: 03/03/2026 (4h)
-- Conteúdo: classes, construtores, atributos e métodos.
-- Pasta: aula-06/ (ainda não criada neste repositório)
+- Conteúdo: arrays, laços com `for`, revisão de funções e condicionais (média/aprovação e triângulo).
+- Pasta: [aula-06/](./aula-06/)
+- Materiais:
+  - [README (anotações e atividades)](./aula-06/README.md)
+  - [script.js](./aula-06/script.js)
 
 <a id="aula-07"></a>
-### Aula 07 — Pilares da POO
+### Aula 07 — Arrays (forEach / find) e revisão
 
 - Data: 04/03/2026 (4h)
-- Conteúdo: herança (extends), encapsulamento, instanciamento de objetos e polimorfismo.
-- Pasta: aula-07/ (ainda não criada neste repositório)
+- Conteúdo: arrays, callbacks com `forEach` e busca com `find`, reforço com `for` e funções.
+- Pasta: [aula-07/](./aula-07/)
+- Materiais:
+  - [README (anotações e atividades)](./aula-07/README.md)
+  - [main.js](./aula-07/main.js)
 
 <a id="aula-08"></a>
 ### Aula 08 — JavaScript Avançado
