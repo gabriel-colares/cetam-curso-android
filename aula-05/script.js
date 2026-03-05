@@ -9,51 +9,85 @@
 // PARTE 01 — Revisão: Estruturas de repetição
 // ==========================================================
 
-// Exemplo 01: for (mostrar pares de 0 a 20)
-// for (let index = 0; index <= 20; index++) {
-//   if (index % 2 === 0) {
-//     console.log(index);
-//   }
-// }
+const exemploRepeticao = prompt(
+  "PARTE 01 — Escolha um exemplo de repetição:\n" +
+  "1) for (pares 0..20)\n" +
+  "2) while (pares 0..20)\n" +
+  "3) tabuada (do...while)\n" +
+  "4) tabuada (for)\n" +
+  "5) tabuada (while)\n"
+)
 
-// Exemplo 02: while (mostrar pares de 0 a 20)
-// let indice = 0;
-// while (indice <= 20) {
-//   if (indice % 2 === 0) {
-//     console.log(indice);
-//   }
-//   indice++
-// }
+if (exemploRepeticao === "1") {
+  console.log("=== Exemplo 01 — for (pares 0..20) ===")
+  for (let i = 0; i <= 20; i++) {
+    if (i % 2 === 0) {
+      console.log(i)
+    }
+  }
+} else if (exemploRepeticao === "2") {
+  console.log("=== Exemplo 02 — while (pares 0..20) ===")
+  let i = 0
+  while (i <= 20) {
+    if (i % 2 === 0) {
+      console.log(i)
+    }
+    i++
+  }
+} else if (exemploRepeticao === "3") {
+  console.log("=== Exemplo 03 — tabuada (do...while) ===")
+  const textoNumeroTabuada = prompt("Qual tabuada deseja mostrar?")
+  const numeroTabuada = parseInt(textoNumeroTabuada)
 
-// Exemplo 03: tabuada com do...while
-// let num_tabuada = parseInt(prompt("Qual tabuada deseja mostrar?"));
-// let indice_tabuada = 0;
-// do {
-//   let resultado = num_tabuada * indice_tabuada;
-//   console.log(`${num_tabuada} * ${indice_tabuada} = ${resultado}`)
-//   indice_tabuada++;
-// } while (indice_tabuada <= 10)
+  if (numeroTabuada !== numeroTabuada) {
+    console.error("Você não digitou um número válido.")
+  } else {
+    let i = 0
+    do {
+      const resultado = numeroTabuada * i
+      console.log(`${numeroTabuada} * ${i} = ${resultado}`)
+      i++
+    } while (i <= 10)
+  }
+} else if (exemploRepeticao === "4") {
+  console.log("=== Exemplo 04 — tabuada (for) ===")
+  const textoNumeroTabuada = prompt("Qual tabuada deseja mostrar?")
+  const numeroTabuada = parseInt(textoNumeroTabuada)
 
-// Exemplo 04: tabuada com for (corrigido)
-// let num_tabuada = parseInt(prompt("Qual tabuada deseja mostrar?"));
-// for (let indice_tabuada = 0; indice_tabuada <= 10; indice_tabuada++) {
-//   let resultado = num_tabuada * indice_tabuada;
-//   console.log(`${num_tabuada} * ${indice_tabuada} = ${resultado}`)
-// }
+  if (numeroTabuada !== numeroTabuada) {
+    console.error("Você não digitou um número válido.")
+  } else {
+    for (let i = 0; i <= 10; i++) {
+      const resultado = numeroTabuada * i
+      console.log(`${numeroTabuada} * ${i} = ${resultado}`)
+    }
+  }
+} else if (exemploRepeticao === "5") {
+  console.log("=== Exemplo 05 — tabuada (while) ===")
+  const textoNumeroTabuada = prompt("Qual tabuada deseja mostrar?")
+  const numeroTabuada = parseInt(textoNumeroTabuada)
 
-// Exemplo 05: tabuada com while
-// let num_tabuada = parseInt(prompt("Qual tabuada deseja mostrar?"));
-// let indice_tabuada = 0;
-// while (indice_tabuada <= 10) {
-//   let resultado = num_tabuada * indice_tabuada;
-//   console.log(`${num_tabuada} * ${indice_tabuada} = ${resultado}`)
-//   indice_tabuada++;
-// }
+  if (numeroTabuada !== numeroTabuada) {
+    console.error("Você não digitou um número válido.")
+  } else {
+    let i = 0
+    while (i <= 10) {
+      const resultado = numeroTabuada * i
+      console.log(`${numeroTabuada} * ${i} = ${resultado}`)
+      i++
+    }
+  }
+} else {
+  console.log("Nenhum exemplo de repetição escolhido.")
+}
 
 // ==========================================================
 // PARTE 02 — Funções (function e arrow function)
 // ==========================================================
 
+// ----------------------------------------------------------
+// 2.1 Funções básicas (parâmetros)
+// ----------------------------------------------------------
 function ola(msg) {
   console.log(msg)
 }
@@ -67,6 +101,9 @@ function calcular(num1, num2) {
   console.log(resultado)
 }
 
+// ----------------------------------------------------------
+// 2.2 Funções de cálculo (ex.: multiplicar, dividir)
+// ----------------------------------------------------------
 function multiplicar(a, b) {
   console.log(a * b)
 }
@@ -83,6 +120,9 @@ function dividir(a, b) {
   console.log(a / b)
 }
 
+// ----------------------------------------------------------
+// 2.3 Função com regra de negócio (média)
+// ----------------------------------------------------------
 function calcularMedia(aluno, n1, n2, n3) {
   if (typeof (n1) !== "number" || typeof (n2) !== "number" || typeof (n3) !== "number") {
     console.error("Não é um número!!")
@@ -90,7 +130,7 @@ function calcularMedia(aluno, n1, n2, n3) {
   }
 
   const resultado = (n1 + n2 + n3) / 3;
-  console.log(`Ò aluno ${aluno} teve um desempenho de:`)
+  console.log(`O aluno ${aluno} teve um desempenho de:`)
   console.log(`(${n1} + ${n2} + ${n3}) / 3 = ${resultado.toFixed(2)}`)
 
 }
@@ -99,9 +139,11 @@ function calcularMedia(aluno, n1, n2, n3) {
 // CHAMADAS (execução)
 // ==========================================================
 
+console.log("=== Aula 05: Funções ===")
 ola("Mensagem vinda da turma de desenvolvimento do CETAM!")
 apresentacao("Gabriel")
 calcular(5, 10)
+multiplicar(6, 7)
 dividir(10, 2)
 
 calcularMedia("Carlos", 7, 5, 9)
@@ -110,7 +152,9 @@ calcularMedia("Souza", 2, 3, 9)
 calcularMedia("Lucas", 1, 1, 4)
 calcularMedia("Adalmir", 6, 3, 4)
 
-// arrow-function
+// ----------------------------------------------------------
+// 2.4 Arrow Function (tabuada)
+// ----------------------------------------------------------
 const tabuada = (numero = 5, start = 0, end = 10) => {
   if (typeof (numero) !== "number") {
     console.error("Não é um número!!!")
