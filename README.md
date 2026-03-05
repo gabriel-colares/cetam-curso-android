@@ -39,6 +39,7 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [Aula 31 — Build e Deploy](#aula-31)
   - [Aula 32 — AV3](#aula-32)
   - [Aula 33 — Encerramento](#aula-33)
+- [Trilha de estudos (Curso em Vídeo — JavaScript)](#trilha)
 - [Referências](#referencias)
 
 <a id="plano"></a>
@@ -306,6 +307,129 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
 - Data: 09/04/2026 (2h)
 - Conteúdo: devolutiva das avaliações; entrega de notas; orientações de continuidade; mercado de trabalho.
 - Pasta: aula-33/ (ainda não criada neste repositório)
+
+<a id="trilha"></a>
+## Trilha de estudos (playlist Curso em Vídeo – JavaScript)
+
+> Playlist oficial:
+> `https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1`
+
+---
+
+## Antes de começar
+
+- Tenha um editor instalado, como **VS Code**
+- Use o navegador para testar os exemplos
+- Crie uma pasta para organizar seus arquivos, por exemplo: `curso-js/`
+
+---
+
+## Ordem de aulas para acompanhar
+
+### Módulo 1 — Fundamentos da linguagem
+
+- [ ] **Aula 5** — Variáveis e tipos primitivos
+- [ ] **Aula 6** — Tratamento de dados
+- [ ] **Aula 7** — Operadores (Parte 1)
+- [ ] **Aula 8** — Operadores (Parte 2)
+
+**Objetivo deste bloco:**
+
+- entender variáveis
+- reconhecer tipos primitivos
+- converter dados
+- usar operadores aritméticos, relacionais e lógicos
+
+---
+
+### Módulo 2 — Condições em JavaScript
+
+- [ ] **Aula 11** — Condições (Parte 1)
+- [ ] **Aula 12** — Condições (Parte 2)
+
+#### Exercícios deste bloco
+
+Faça logo após terminar a Aula 12:
+
+- [ ] **Exercícios (Parte 1)**
+- [ ] **Exercícios (Parte 2)**
+- [ ] **Exercícios (Parte 3)**
+
+**Objetivo deste bloco:**
+
+- usar `if`, `else`
+- entender decisões no código
+- praticar lógica condicional
+
+---
+
+### Módulo 3 — Repetições em JavaScript
+
+- [ ] **Aula 13** — Repetições (Parte 1)
+- [ ] **Aula 14** — Repetições (Parte 2)
+
+#### Exercícios deste bloco
+
+- [ ] **Exercícios (Parte 4)** — contagem
+- [ ] **Exercícios (Parte 5)** — tabuada
+
+**Objetivo deste bloco:**
+
+- usar `while`
+- usar `do...while`
+- usar `for`
+- entender estruturas de repetição
+
+---
+
+### Módulo 4 — Avançando nos estudos
+
+- [ ] **Aula 15** — Variáveis compostas (arrays)
+- [ ] **Aula 16** — Funções
+
+#### Exercício final
+
+- [ ] **Exercícios (Parte 7)** — analisador
+
+**Objetivo deste bloco:**
+
+- entender arrays
+- percorrer listas
+- criar funções com parâmetros e retorno
+
+---
+
+## Observação importante
+
+Como você quer seguir a partir da **Aula 5**, esta trilha **ignora a parte introdutória anterior** e também **remove o bloco de DOM e eventos**.
+
+Se em algum momento sentir que faltou contexto, você pode voltar depois para assistir as aulas anteriores apenas como reforço.
+
+---
+
+## Ritmo sugerido de estudo
+
+- assista a aula
+- repita os exemplos no seu computador
+- anote os conceitos principais
+- faça os exercícios sem copiar
+- revise antes de avançar
+
+---
+
+## Checklist final
+
+Ao concluir essa trilha, você deve conseguir:
+
+- declarar variáveis
+- trabalhar com tipos de dados
+- usar operadores
+- criar condições com `if/else`
+- criar repetições com `while`, `do...while` e `for`
+- usar arrays
+- criar funções
+
+Bom estudo!
 
 <a id="referencias"></a>
 ## Referências
