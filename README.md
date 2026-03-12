@@ -13,10 +13,10 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [Aula 05 — Revisão de repetição e Funções](#aula-05)
   - [Aula 06 — Arrays, laços e revisão de funções](#aula-06)
   - [Aula 07 — Arrays (forEach / find) e revisão](#aula-07)
-  - [Aula 08 — JavaScript Avançado](#aula-08)
+  - [Aula 08 — Estruturas de dados e objetos](#aula-08)
   - [Aula 09 — Git e GitHub](#aula-09)
-  - [Aula 10 — AV1](#aula-10)
-  - [Aula 11 — Introdução ao React Native](#aula-11)
+  - [Aula 10 — Objetos e arrays (prática)](#aula-10)
+  - [Aula 11 — HTML/CSS + JavaScript no navegador](#aula-11)
   - [Aula 12 — JSX e Componentes](#aula-12)
   - [Aula 13 — Core Components](#aula-13)
   - [Aula 14 — Estilização](#aula-14)
@@ -127,32 +127,47 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [main.js](./aula-07/main.js)
 
 <a id="aula-08"></a>
-### Aula 08 — JavaScript Avançado
+### Aula 08 — Estruturas de dados e objetos
 
 - Data: 05/03/2026 (4h)
-- Conteúdo: Promises, async/await e importação/exportação de módulos (import/export).
-- Pasta: aula-08/ (ainda não criada neste repositório)
+- Conteúdo: arrays (`forEach`, `map`, `filter`), objetos e array de objetos.
+- Pasta: [aula-08/](./aula-08/)
+- Materiais:
+  - [README (anotações e atividades)](./aula-08/README.md)
+  - [main.js](./aula-08/main.js)
+  - [banco-de-dados.json](./aula-08/banco-de-dados.json)
 
 <a id="aula-09"></a>
 ### Aula 09 — Git e GitHub
 
 - Data: 06/03/2026 (4h)
 - Conteúdo: Init, Add, Commit, Push, Branching básico.
-- Pasta: aula-09/ (ainda não criada neste repositório)
+- Pasta: [aula-09/](./aula-09/)
+- Materiais:
+  - [README (anotações e atividades)](./aula-09/README.md)
+  - [main.js](./aula-09/main.js)
 
 <a id="aula-10"></a>
-### Aula 10 — AV1
+### Aula 10 — Objetos e arrays (prática)
 
 - Data: 09/03/2026 (4h)
-- Conteúdo: avaliação somativa (lógica, algoritmos e fundamentos com JavaScript/TypeScript).
-- Pasta: aula-10/ (ainda não criada neste repositório)
+- Conteúdo: objetos, métodos, busca por índice com `findIndex` e inserção com `push`.
+- Pasta: [aula-10/](./aula-10/)
+- Materiais:
+  - [README (anotações e atividades)](./aula-10/README.md)
+  - [main.js](./aula-10/main.js)
 
 <a id="aula-11"></a>
-### Aula 11 — Introdução ao React Native
+### Aula 11 — HTML/CSS + JavaScript no navegador
 
 - Data: 10/03/2026 (4h)
-- Conteúdo: ecossistema Expo; estrutura inicial do projeto; organização de pastas; primeiro app (Hello World).
-- Pasta: aula-11/ (ainda não criada neste repositório)
+- Conteúdo: estrutura de página com HTML semântico, CSS básico e interação via JS (DOM).
+- Pasta: [aula-11/](./aula-11/)
+- Materiais:
+  - [README (anotações e atividades)](./aula-11/README.md)
+  - [index.html](./aula-11/index.html)
+  - [main.css](./aula-11/main.css)
+  - [index.js](./aula-11/index.js)
 
 <a id="aula-12"></a>
 ### Aula 12 — JSX e Componentes
