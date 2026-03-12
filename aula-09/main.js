@@ -1,31 +1,49 @@
-console.log("=== Aula 09 — Git e GitHub ===")
+console.log("=== Aula 09 — Pré-avaliação (diagnóstica) ===")
 
-const opcao = prompt(
-  "Escolha um tópico:\n" +
-  "1) Fluxo básico (init/add/commit/push)\n" +
-  "2) Branch (criar e trocar)\n" +
-  "3) Checklist do dia\n"
-)
+const iniciar = prompt("Digite 1 para iniciar a pré-avaliação:")
 
-if (opcao === "1") {
-  console.log("=== 1) Fluxo básico ===")
-  console.log("git init")
-  console.log("git status")
-  console.log("git add .")
-  console.log("git commit -m \"mensagem\"")
-  console.log("git push -u origin main")
-} else if (opcao === "2") {
-  console.log("=== 2) Branch ===")
-  console.log("git branch")
-  console.log("git checkout -b minha-feature")
-  console.log("git checkout main")
-} else if (opcao === "3") {
-  console.log("=== 3) Checklist ===")
-  console.log("- confirmar remoto: git remote -v")
-  console.log("- ver mudanças: git status")
-  console.log("- revisar diff: git diff")
-  console.log("- adicionar e commitar: git add . / git commit -m")
-  console.log("- enviar: git push")
+if (iniciar !== "1") {
+  console.log("Pré-avaliação não iniciada.")
 } else {
-  console.log("Nenhum tópico escolhido.")
+  const perguntas = [
+    {
+      enunciado: "1) Qual operador representa 'E' lógico em JavaScript?",
+      opcoes: ["A) ||", "B) &&", "C) !"],
+      correta: "B"
+    },
+    {
+      enunciado: "2) Qual laço é mais comum para contar de 0 até 9?",
+      opcoes: ["A) for", "B) switch", "C) try/catch"],
+      correta: "A"
+    },
+    {
+      enunciado: "3) Qual método adiciona um item no final do array?",
+      opcoes: ["A) pop()", "B) shift()", "C) push()"],
+      correta: "C"
+    },
+    {
+      enunciado: "4) O que 'find' retorna quando não encontra um item?",
+      opcoes: ["A) -1", "B) undefined", "C) null"],
+      correta: "B"
+    },
+    {
+      enunciado: "5) Qual opção descreve melhor uma função?",
+      opcoes: ["A) Um valor fixo", "B) Um bloco reutilizável", "C) Um tipo de array"],
+      correta: "B"
+    }
+  ]
+
+  let acertos = 0
+
+  for (let i = 0; i < perguntas.length; i++) {
+    const p = perguntas[i]
+    const resposta = prompt(p.enunciado + "\n" + p.opcoes.join("\n") + "\nDigite A, B ou C:")
+
+    if (resposta && resposta.toUpperCase() === p.correta) {
+      acertos++
+    }
+  }
+
+  console.log("Acertos:", acertos, "de", perguntas.length)
+  console.log("Percentual:", Math.round((acertos / perguntas.length) * 100) + "%")
 }

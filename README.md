@@ -14,8 +14,8 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [Aula 06 — Arrays, laços e revisão de funções](#aula-06)
   - [Aula 07 — Arrays (forEach / find) e revisão](#aula-07)
   - [Aula 08 — Estruturas de dados e objetos](#aula-08)
-  - [Aula 09 — Git e GitHub](#aula-09)
-  - [Aula 10 — Objetos e arrays (prática)](#aula-10)
+  - [Aula 09 — Pré-avaliação](#aula-09)
+  - [Aula 10 — AV1 (até arrays e métodos)](#aula-10)
   - [Aula 11 — HTML/CSS + JavaScript no navegador](#aula-11)
   - [Aula 12 — JSX e Componentes](#aula-12)
   - [Aula 13 — Core Components](#aula-13)
@@ -134,27 +134,30 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
 - Pasta: [aula-08/](./aula-08/)
 - Materiais:
   - [README (anotações e atividades)](./aula-08/README.md)
+  - [index.html](./aula-08/index.html)
   - [main.js](./aula-08/main.js)
   - [banco-de-dados.json](./aula-08/banco-de-dados.json)
 
 <a id="aula-09"></a>
-### Aula 09 — Git e GitHub
+### Aula 09 — Pré-avaliação
 
 - Data: 06/03/2026 (4h)
-- Conteúdo: Init, Add, Commit, Push, Branching básico.
+- Conteúdo: pré-avaliação (diagnóstica) para consolidar lógica e fundamentos antes da AV1.
 - Pasta: [aula-09/](./aula-09/)
 - Materiais:
   - [README (anotações e atividades)](./aula-09/README.md)
+  - [index.html](./aula-09/index.html)
   - [main.js](./aula-09/main.js)
 
 <a id="aula-10"></a>
-### Aula 10 — Objetos e arrays (prática)
+### Aula 10 — AV1 (até arrays e métodos)
 
 - Data: 09/03/2026 (4h)
-- Conteúdo: objetos, métodos, busca por índice com `findIndex` e inserção com `push`.
+- Conteúdo: avaliação objetiva, com questões de elaboração de algoritmo, cobrindo o conteúdo até **arrays e seus métodos**.
 - Pasta: [aula-10/](./aula-10/)
 - Materiais:
   - [README (anotações e atividades)](./aula-10/README.md)
+  - [index.html](./aula-10/index.html)
   - [main.js](./aula-10/main.js)
 
 <a id="aula-11"></a>

@@ -1,6 +1,6 @@
-# Aula 10 — Objetos e arrays (prática)
+# Aula 10 — AV1 (até arrays e métodos)
 
-Nesta aula praticamos **objetos**, **arrays** e operações comuns como buscar índice com `findIndex` e adicionar itens com `push`.
+Nesta aula foi aplicada uma **avaliação objetiva**, com questões de **elaboração de algoritmo**, cobrindo o conteúdo até **arrays e seus métodos**.
 
 ## Materiais
 
@@ -17,18 +17,11 @@ Nesta aula praticamos **objetos**, **arrays** e operações comuns como buscar �
 
 ## Organização do script
 
-O [main.js](./main.js) abre um menu com `prompt()` para você executar **um exercício por vez**.
+O [main.js](./main.js) fica como apoio para revisar os tópicos (código curto e organizado para execução no navegador).
 
-## Exercícios no menu
+## Conteúdo avaliado
 
-### 1) Objeto pessoa (propriedades, arrays e métodos)
-
-- Objeto com dados pessoais e arrays (`amigos`, `carros`)
-- Métodos: `falar()` e `mostrarCarros()`
-
-### 2) Posts + comentários (findIndex + push)
-
-- Array `posts` com um post e um array de `comentarios`
-- Função `comentar(postId, username, comentario)`:
-  - encontra o post com `findIndex`
-  - adiciona um comentário com `push`
+- Lógica e elaboração de algoritmo
+- Condicionais e laços
+- Funções (chamada, parâmetros e retorno)
+- Arrays e métodos (ex.: `push`, `pop`, `forEach`, `find`, `map`, `filter`)

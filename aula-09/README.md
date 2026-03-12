@@ -1,6 +1,6 @@
-# Aula 09 — Git e GitHub (comandos e fluxo)
+# Aula 09 — Pré-avaliação (diagnóstica)
 
-Nesta aula reforçamos o uso do **Git** e do **GitHub** no dia a dia do projeto: criar repositório, versionar mudanças e enviar para o remoto.
+Nesta aula fizemos uma **pré-avaliação (diagnóstica)** para consolidar lógica e fundamentos antes da AV1.
 
 ## Materiais
 
@@ -11,28 +11,15 @@ Nesta aula reforçamos o uso do **Git** e do **GitHub** no dia a dia do projeto:
 
 ## Como executar
 
-O [main.js](./main.js) apenas imprime no Console um resumo de comandos (para consulta rápida):
+O [main.js](./main.js) abre um quiz com `prompt()` e mostra o resultado no Console:
 
 - Abra o arquivo [index.html](./index.html) no navegador
 - Abra o Console (F12)
 
 ## Conteúdo visto
 
-### Fluxo básico
+### Pré-avaliação (diagnóstica)
 
-- `git init`
-- `git status`
-- `git add .`
-- `git commit -m "mensagem"`
-- `git push -u origin main`
-
-### Branch (básico)
-
-- `git branch`
-- `git checkout -b minha-feature`
-- `git checkout main`
-
-## Atividades sugeridas
-
-- Criar um repositório no GitHub e conectar com `git remote add origin ...`
-- Criar uma branch, commitar uma mudança e abrir um Pull Request
+- Questões objetivas e curtas para revisar a base antes da avaliação
+- Interpretação de enunciado e passos de algoritmo
+- Condicionais, laços, funções e arrays (revisão)
