@@ -17,8 +17,8 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
   - [Aula 09 — Pré-avaliação](#aula-09)
   - [Aula 10 — AV1 (até arrays e métodos)](#aula-10)
   - [Aula 11 — HTML/CSS + JavaScript no navegador](#aula-11)
-  - [Aula 12 — JSX e Componentes](#aula-12)
-  - [Aula 13 — Core Components](#aula-13)
+  - [Aula 12 — JSX e Componentes (Linktree)](#aula-12)
+  - [Aula 13 — Core Components (Linktree)](#aula-13)
   - [Aula 14 — Estilização](#aula-14)
   - [Aula 15 — Hooks (useState)](#aula-15)
   - [Aula 16 — Formulários](#aula-16)
@@ -177,14 +177,18 @@ Repositório do curso de Qualificação Profissional **Desenvolvedor de Aplicaç
 
 - Data: 11/03/2026 (4h)
 - Conteúdo: diferenças entre HTML e JSX; regras de renderização; criação e reutilização de componentes.
-- Pasta: aula-12/ (ainda não criada neste repositório)
+- Pasta: [aula-12-13/](./aula-12-13/)
+- Materiais:
+  - [README (Linktree — JSX e componentes)](./aula-12-13/README.md)
 
 <a id="aula-13"></a>
 ### Aula 13 — Core Components
 
 - Data: 12/03/2026 (4h)
 - Conteúdo: View, Text, Image, TextInput, Button, TouchableOpacity.
-- Pasta: aula-13/ (ainda não criada neste repositório)
+- Pasta: [aula-12-13/](./aula-12-13/)
+- Materiais:
+  - [README (Linktree — Core Components)](./aula-12-13/README.md)
 
 <a id="aula-14"></a>
 ### Aula 14 — Estilização
